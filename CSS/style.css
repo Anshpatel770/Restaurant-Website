@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&display=swap');
+
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: antiquewhite;
+}
+.navbar{
+     display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 7px 4px 3px grey;
+    height: 79px;
+
+}
+h1{
+     font-size: 30px;
+     font-family: 'Montserrat', sans-serif;
+}
+ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ul li{
+     list-style: none;
+}
+ul li a{
+     text-decoration: none;
+     margin: 5px 13px;
+     padding: 17px;
+     font-size: 20px;
+     color: black;
+    
+}
+.button{
+     /* background-color: red; */
+}
+.btn{
+     padding: 8px 27px;
+     border-radius: 10px;
+     background-color: red;
+     color: white;
+     font-size: 20px;
+     cursor: pointer;
+     transition: 0.2s ease-in-out;
+}
+.btn:hover{
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     position: relative;
+}
+.logo img{
+     border-radius: 123px;
+     margin-left: 87px;
+     margin-top: 28px;
+     width: 507px;
+}
+.hero{
+     margin-top: 212px;
+}
+.tag{
+     background-color: green;
+     margin-left: 61px;
+     width: 37%;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+}
+.heading{
+     font-size: 53px;
+     margin-left: 56px;
+     margin-top: 1px;
+     font-family: 'Ubuntu', sans-serif;
+     text-shadow: 5px 5px 5px rgb(52 54 70);
+}
+.para{
+     margin-left: 56px;
+     margin-top: 26px;
+     font-family: 'Roboto', sans-serif;
+}
+.button1{
+     position: absolute;
+     top: 74%;
+     left: 48%;
+     font-family: 'Roboto', sans-serif;
+}
+.btns{
+     padding: 4px 22px;
+    background-color: darkolivegreen;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+.btns:hover{
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+}
+.menu{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 70px;
+     font-size: 50px;
+     font-family: 'Montserrat', sans-serif;
+}
+.container1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 90px;
+    
+}
+h2{
+     font-family: 'Ubuntu', sans-serif;
+}
+.box{
+     margin: 5px 40px;
+}
+.box img{
+     transition: 0.2s ease-in-out;
+     cursor: pointer;
+}
+.box img:hover{
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+}
+.hero1{
+     display: flex;
+     
+}
+.review{
+     display: flex;
+     /* justify-content: center; */
+     /* align-items: center; */
+     margin-left: 76px
+}
+p{
+     margin: 0px 7px
+}
+.container3{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.container2 h2{
+     margin: 42px 13px;
+     text-shadow: 5px 5px 5px rgb(52 54 70);
+     font-size: 36px;
+ }
+ .carts{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+ }
+ .cart-item{
+     cursor: pointer;
+     border: 2px solid black;
+     margin: auto 4px;
+     background-color: grey;
+     box-shadow: 5px 5px 5px darkgreen;
+     padding: 26px 51px;
+ }
+ .cart-item i{
+     position: absolute;
+    
+     margin: 12px 201px;
+ }
+ 
